@@ -2,7 +2,7 @@ body{
     margin-top:20px;
     color: #1a202c;
     text-align: left;
-    background-color: #e2e8f0;    
+    background-image:url('./backround.jpg');    
 }
 .main-body {
     padding: 15px;
@@ -50,4 +50,10 @@ body{
 }
 .shadow-none {
     box-shadow: none!important;
+}
+
+
+.main-breadcrumb:hover{
+    color: #fff;
+    border-bottom: 1px solid white;
 }
